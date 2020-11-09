@@ -2,6 +2,12 @@
 
 ---
 
+## Note
+
+Base implementation of framework for CLI argument parsing and intial router gorouting instantiation by Uwe R. Zimmer of the ANU. All other implementation details are my own. 
+
+---
+
 ## Overview
 
 Implementing a network of routers with arbitrary topology requires dynamic identification ofnetwork structure and neighbour mappings. This implementation is based around DistanceVector Routing (DVR) with local only tables. Each of the routers implements a IPv4 dynamicaddress for managing subnet changes locally, and also re-pathing for dynamic topologychanges.
